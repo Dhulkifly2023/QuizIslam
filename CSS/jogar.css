@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1d252f;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+   color: #ffffff;
+   margin-bottom: 60px;
+
+}
+
+
+.header2 div.rankings h3:nth-child(1) {
+    animation-delay: 0.7s;}
+
+
+
+.header3 {
+    display: flex;
+    justify-content: center;  
+    text-align: center;
+    height: auto;
+    margin:5% 5% 5% 5%;
+
+}
+.header2 div.niveis
+{
+    display: inline-block;
+    margin: 20%;
+}
+.header3 div.nivel ,overlay{
+    display: inline-block;
+    margin: 10PX;
+    margin-top: 25px;
+    justify-content: center;
+     
+    position: relative;
+    width: 160px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid#b5e1ee;
+    border-radius: 2%;
+    box-shadow: 0 0 12px ;
+    transform: translateX(-20%);
+    transition: .5s;
+    animation: fadeIn 0.5s ease-in-out forwards; 
+    opacity: 0;
+    cursor: pointer;
+}
+.header3 div.nivel:hover a img {
+    transform: scale(1.2); 
+    border-radius: 6px;
+    box-shadow: 0 0 6px #2eceff;
+}
+.header3 div.nivel:hover a h3 {
+    transform: scale(1.1); 
+    border-radius: 6px;
+}
+.header3 div.nivel:hover .overlay {
+    opacity: 1; 
+}
+
+.header3 div.nivel a img
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.header3 input:focus~div.nivel,
+.header3 input:valid~div.nivel {
+    top: -5px;
+}
+.header3 h3
+{
+    font-size: 13px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+ 
+    padding:10px 4px 4px 4px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+    display: flex;
+  
+    bottom: 0;
+    border-bottom: 2px solid #2eceff; 
+    
+   cursor: pointer;
+
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.header3 div.nivel:nth-child(1) {
+    animation-delay: 0.6s;}
+
+.header3 div.nivel:nth-child(2) {
+    animation-delay: 0.9s; 
+}
+
+.header3 div.nivel:nth-child(3) {
+    animation-delay: 1.2s; 
+}
+.header3 div.nivel:nth-child(4) {
+    animation-delay: 1.5s; 
+}
+.header3 div.nivel:nth-child(5) {
+    animation-delay: 1.8s; 
+}
+.header3 div.nivel:nth-child(6) {
+    animation-delay: 2.1s; 
+}
+.header3 div.nivel:nth-child(7) {
+    animation-delay: 2.4s; 
+}
+.header3 div.nivel:nth-child(8) {
+    animation-delay: 2.7s; 
+}
+
+@media only screen and (max-width: 750px) 
+{
+    .header3 div.nivel ,overlay{
+        display: inline-block;
+        margin: 8PX;
+        margin-top: 25px;
+        justify-content: center;
+         
+        position: relative;
+        width: 120px;
+        height: 120px;
+      
+    }
+    .header2 h3
+    {
+        font-size: 14px;
+    }
+}

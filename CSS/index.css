@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Lobster&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    height: 70px;
+    background-color: #1d252f;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 6px white;
+}
+
+.logo {
+    flex: 20%;
+    text-align: center;
+    color: #2fcdff;
+}
+
+.logo IMG {
+    height: 80PX;
+    max-width: 100%;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.menu a:hover {
+    color: #2fcdff;
+    border-bottom: 2px solid #97dbf0;
+}
+
+.modoDark {
+    flex: 10%;
+}
+
+#botaoBar {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 9px 15px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#botaoBar:hover {
+    border: none;
+    background: rgb(99, 213, 241);
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d252f;
+    background: linear-gradient(-26deg, white 50%, #1d252f 50%);
+}
+
+.header-text {
+    margin-left: 7%;
+    margin-right: 5%;
+    flex: 38%;
+    letter-spacing: 1px;
+    margin-bottom: 20%;
+}
+
+.header-text h2 {
+    font-size: 12px;
+    font-weight: 12px;
+    margin: 0px;
+    color: #97dbf0;
+}
+
+.header P {
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+
+.header-image {
+    margin-right: 10%;
+    flex: 30%;
+    border-radius: 50%;
+    margin-bottom: 18%;
+}
+
+.header-text h2.typing-text {
+    font-size: 28px;
+}
+
+.jogar-btn {
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.jogar-btn:hover {
+    background: #2fcdff;
+    border: none;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.redesSociais div {
+    margin: 2px;
+    padding: 12pX 12px;
+    cursor: pointer;
+}
+
+.redesSociais div span ion-icon {
+    height: 28px;
+    width: 28px;
+}
+
+.redesSociais div.instagram,
+.whatsapp,
+.pinterest {
+    color: rgb(7, 7, 7);
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.redesSociais div.pinterest:hover {
+    background-color: red;
+}
+
+.redesSociais div.pinterest:hover span ion-icon {
+    color: black;
+}
+
+.redesSociais div.instagram:hover {
+    background-color: rgb(201, 28, 143);
+}
+
+.redesSociais div.instagram:hover span ion-icon {
+    color: black;
+    /* Restaura a cor original ao remover o hover */
+}
+
+.redesSociais div.whatsapp:hover {
+    background-color: rgb(37, 255, 18);
+}
+
+.redesSociais div.whatsapp:hover span ion-icon {
+    color: black;
+    /* Restaura a cor original ao remover o hover */
+}
+
+.perfilHeader {
+    position: relative;
+    justify-content: center;
+}
+
+.outer-circle {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inner-circle {
+    width: 430px;
+    height: 430px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.portfolio-image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+section {
+    display: inline-block;
+    margin-top: 90px;
+    background: #1d252f;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background: #1d252f;
+    color: WHITE;
+}
+
+.rodape {
+    border-top: 4px solid #04bef7;
+    display: flex;
+    flex-flow: row wrap;
+    height: 170px;
+    align-items: center;
+}
+
+.foot-image {
+    flex: 40%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+}
+
+.textos-rodape {
+    flex: 40%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    height: 100px;
+}
+
+.textos-rodape a {
+    display: flex;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 252, 252);
+    margin: 5px;
+}
+
+.textos-rodape a:hover {
+    color: #3897f0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1d252f;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        font-size: 14px;
+        /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    .navbar {
+        height: 60px;
+    }
+    .logo IMG {
+        height: 60PX;
+        max-width: 100%;
+    }
+    .logo {
+        flex: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header {
+        height: auto;
+        flex-direction: column;
+        background: #1d252f;
+        background: linear-gradient(-52deg, white 50%, #1d252f 50%);
+    }
+    .header-text {
+        flex: 100%;
+        margin-top: 60px;
+    }
+    .header-text h2 {
+        font-size: 12px;
+    }
+    .header-text h2.typing-text {
+        font-size: 26px;
+    }
+    .header P {
+        padding-bottom: 26px;
+    }
+    .header-image {
+        margin-bottom: 10%;
+    }
+    .jogar-btn {
+        margin-left: 0;
+    }
+    .redesSociais {
+        margin-top: 30px;
+    }
+    .outer-circle {
+        width: 270px;
+        height: 270px;
+    }
+    .inner-circle {
+        width: 90%;
+        height: auto;
+    }
+    .portfolio-image {
+        width: 100%;
+    }
+    section {
+        margin-top: 20px;
+        /* Adicione margem superior conforme necessário */
+        padding-bottom: 50px;
+    }
+    .rodape {
+        height: 100px;
+    }
+    .foot-image,
+    .textos-rodape {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .foot-image img {
+        height: 120px;
+        width: 120px;
+    }
+    .textos-rodape a {
+        margin: 10px;
+    }
+    .copyright {
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1138px) and (min-width: 750px) {
+    .header {
+        height: 500px;
+    }
+    .header-text {
+        margin-top: 80px;
+    }
+    .jogar-btn {
+        margin-left: 0;
+    }
+    .redesSociais {
+        margin-top: 30px;
+    }
+    .outer-circle {
+        width: 270px;
+        height: 270px;
+    }
+    .inner-circle {
+        width: 90%;
+        height: auto;
+    }
+    .portfolio-image {
+        width: 100%;
+    }
+    section {
+        margin-top: 20px;
+        /* Adicione margem superior conforme necessário */
+        padding-bottom: 50px;
+    }
+    .rodape {
+        height: 100px;
+    }
+    .foot-image,
+    .textos-rodape {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .foot-image img {
+        height: 120px;
+        width: 120px;
+    }
+    .textos-rodape a {
+        margin: 10px;
+    }
+    .copyright {
+        padding-top: 0px;
+    }
+}

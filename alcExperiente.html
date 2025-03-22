@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiente</title>
+    <link rel="stylesheet" href="CSS/questoes.css">
+    <link rel="icon" href="IMAGEM/QuizIslam.png" type="image/x-icon">
+</head>
+
+<body onload="iniciarQuiz()">
+    <div class="caixa">
+        <h1>Alcorão</h1>
+
+        <div class="detalhes">
+            <div class="nivel-dificuldade">
+                <h5>Experiente</h5>
+            </div>
+            <div class="Numero-de-questoes">
+                <h5 id="numero-total-questoes"></h5>
+            </div>
+        </div>
+
+        <h5 class="quiz" id="questao">
+            Aqui estão as perguntas
+        </h5>
+        <div id="botoes-respostas">
+            <button class="btn" onclick="verificarResposta(0)">Answer 1</button>
+            <button class="btn" onclick="verificarResposta(1)">Answer 2</button>
+            <button class="btn" onclick="verificarResposta(2)">Answer 3</button>
+            <button class="btn" onclick="verificarResposta(3)">Answer 4</button>
+        </div>
+        <div class="resposta-da-pergunta" id="resposta-da-pergunta">
+            <div class="explicacao" id="explicacao"></div>
+        </div>
+
+
+
+        <div id="pontuacao"><span id="pontos" hidden></span></div>
+        <div id="mensagem-final" style="text-align: center; margin-top:20px"></div>
+        <div id="barra-progresso">
+            <div id="progresso-porcentagem"></div>
+        </div>
+        <div class="Quiz-result" style="display: none;">
+
+            <div id="pontuacao-final"><span id="pontos-final" hidden>0</span></div>
+            <button  class="normal" id="proximo-nivel-btn" onclick="proximoNivel()" style="display: none;"><span><ion-icon
+                        name="play-forward-outline"></ion-icon></span></button>
+            <button class="normal" id="reiniciar-btn" onclick="reiniciarQuiz()"><span
+                    style="color:red; width:60px; height:60px"><ion-icon
+                        name="refresh-outline"></ion-icon></ion-icon></span></button>
+
+            <button class="normal" id="pagina-inicial-btn" onclick="voltarPaginaInicial()">
+                <span> <ion-icon name="home-outline"></ion-icon></span> </button>
+
+        </div>
+        <div id="pontuacao" style="text-align: center; justify-content: center;">
+            <span id="pontos" hidden>0</span>
+        </div>
+        <button class="normal" id="seguinte-btn" onclick="mostrarProximaQuestao()" disabled><span><ion-icon
+                    name="play-skip-forward-outline"></ion-icon></span></button>
+        <script src="JS/alcExperiente.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+        <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+</body>
+
+</html>

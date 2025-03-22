@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1d252f;
+}
+
+.header2 {
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+    padding-right: 100px;
+
+}
+
+.header2 div.rankings div {
+    position: relative;
+    display: inline-block;
+    border: 1px solid beige;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin: 5px;
+    box-shadow: 0 0 12px;
+    transform: translateX(-20%);
+    transition: .5s;
+    animation: fadeIn 0.5s ease-in-out forwards; 
+    opacity: 0; 
+}
+.header2 div.rankings div:nth-child(1) {
+    animation-delay: 0.3s;}
+
+.header2 div.rankings div:nth-child(2) {
+    animation-delay: 0.5s; 
+}
+
+.header2 div.rankings div:hover {
+    background: hsl(194, 100%, 59%);
+    border: none;
+}
+/* Estilos para a primeira div .modo-play */
+.modo-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    margin: 10%;
+}
+
+.modo-play a {
+    border-radius: 6px;
+    padding: 17px 10px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 241, 241);
+    background: #1d252f;
+}
+
+.modo-play a:hover {
+    background: #2eceff;
+}
+
+.modo-play:nth-child(2) {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.header3 h3 {
+    font-size: 10px;
+    position: relative;  
+    color: rgb(0, 0, 0);
+    padding: 10px 4px 4px 4px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+    display: flex;
+    bottom: 0;
+    border-radius: 10px;
+    border-bottom: 2px solid #2eceff;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+

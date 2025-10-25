@@ -215,12 +215,12 @@ const question = [
         explicacao: ""
      },
     {
-        questao: "A avô do Profeta (S.A.W) foi chamada?",
+        questao: "A avô paterna do Profeta (S.A.W) foi chamada?",
         resposta:
         [
-            {text: "Haleema",correct:true},
+            {text: "Haleema",correct:false},
             {text: "Sakeena",correct:false},
-            {text: "Fátima",correct:false},
+            {text: "Fátima bint Omar",correct:true},
             {text: "Nenhuma acima",correct:false},
         ],
         explicacao: ""
@@ -235,7 +235,64 @@ const question = [
             {text: "Muharram",correct:false},
         ],
         explicacao: ""
-    }
+    },{
+        questao: "Com que idade o Profeta Muhammad (S.A.W) casou-se com Khadijah (R.A)?",
+        resposta: [
+            {text: "25 anos", correct: true},
+            {text: "30 anos", correct: false},
+            {text: "35 anos", correct: false},
+            {text: "40 anos", correct: false},
+        ],
+        explicacao: "O Profeta Muhammad (S.A.W) tinha 25 anos quando se casou com Khadijah (R.A), que tinha 40 anos."
+    },{
+    questao: "Por que o Profeta Muhammad ﷺ migrou de Meca para Medina?",
+    resposta: [
+        {text: "Para fazer comércio", correct: false},
+        {text: "Para fugir da perseguição dos idólatras", correct: true},
+        {text: "Para visitar sua família", correct: false},
+        {text: "Porque foi convidado para ensinar na cidade", correct: false},
+    ],
+    explicacao: "O Profeta ﷺ migrou de Meca para Medina para escapar da perseguição e estabelecer a comunidade muçulmana."
+},{
+    questao: "Quando e onde faleceu o pai do Profeta Muhammad ﷺ?",
+    resposta: [
+        {text: "Em Meca, depois do nascimento do Profeta", correct: false},
+        {text: "Em Yathrib (Medina), antes do nascimento do Profeta ﷺ", correct: true},
+        {text: "Durante a migração para Medina", correct: false},
+        {text: "Em Taif, após uma viagem comercial", correct: false},
+    ],
+    explicacao: "O pai do Profeta Muhammad ﷺ, Abdullah, faleceu em Yathrib (Medina) antes do nascimento do Profeta."
+},
+{
+    questao: "Qual era a ocupação do Profeta Muhammad ﷺ até os 40 anos?",
+    resposta: [
+        {text: "Era professor e estudioso", correct: false},
+        {text: "Era pastor de ovelhas e também comerciante", correct: true},
+        {text: "Era guerreiro e soldado", correct: false},
+        {text: "Era fazendeiro de trigo", correct: false},
+    ],
+    explicacao: "O Profeta Muhammad ﷺ trabalhou como pastor de ovelhas quando jovem e também se destacou como comerciante antes da revelação."
+},
+{
+    questao: "Por que Khadijah (R.A) quis se casar com o Profeta Muhammad ﷺ?",
+    resposta: [
+        {text: "Por causa de sua riqueza", correct: false},
+        {text: "Por causa de sua beleza", correct: false},
+        {text: "Por causa de sua honestidade e bom caráter", correct: true},
+        {text: "Porque ele era famoso", correct: false},
+    ],
+    explicacao: "Khadijah (R.A) desejava se casar com o Profeta ﷺ devido à sua honestidade, confiabilidade e excelente caráter, qualidades que ela valorizava profundamente."
+},
+{
+    questao: "Qual foi a primeira forma de revelação recebida pelo Profeta Muhammad ﷺ?",
+    resposta: [
+        {text: "Por meio de sonhos verdadeiros durante 6 meses", correct: true},
+        {text: "Por meio de um livro escrito", correct: false},
+        {text: "Por sinais na natureza", correct: false},
+        {text: "Através de mensageiros humanos", correct: false},
+    ],
+    explicacao: "A primeira forma de revelação foi através de sonhos verdadeiros que duraram aproximadamente 6 meses antes da revelação formal do Alcorão."
+}
     
 
 ];

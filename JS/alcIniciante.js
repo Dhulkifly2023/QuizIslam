@@ -1,262 +1,301 @@
 const question = [
+    
     {
-        questao: "Quantos surats existem no Alcorão",
-        resposta: [
-            { text: "30 surats", correct: false },
-            { text: "114 surats", correct: true },
-            { text: "121 surats", correct: false },
-            { text: "100 surats", correct: false },
+        questao: "Em que ano profeta Muhammad (S.A.w) nasceu",
+        resposta:
+        [
+            {text: "576",correct:false},
+            {text: "550",correct:false},
+            {text: "570",correct:true},
+            {text: "572",correct:false},
+
         ],
-        explicacao: "São 114 surates(Capitulos),Dentre eles 86 foram reveladas em Makka e 28 em Madina"
-
-    },
-
-    {
-        questao: "Em quantos Juzes(partes) o alcorão foi dividido",
-        resposta: [
-            { text: "30", correct: true },
-            { text: "26", correct: false },
-            { text: "28", correct: false },
-            { text: "15", correct: false },
-        ],
-
+        explicacao: "Muhammad nasceu na cidade de Meca, um importante centro comercial e de peregrinação religiosa, em 570"
     },
     {
-        questao: "O nome do profeta que o nome da mãe foi mencionado no Alcorão",
-        resposta: [
-            { text: "Issa (A.S)", correct: true },
-            { text: "Ibrahim (A.S)", correct: false },
-            { text: "Yaakub (A.S)", correct: false },
-            { text: "Muhammadd (S.A.W)", correct: false },
+        questao: "Qual  é o nome do pai do profeta Muhammad(S.A.W)",
+        resposta:
+        [
+            {text: "Abdul Qassim",correct:false},
+            {text: "Abdullah",correct:true},
+            {text: "Abdul Mutualib",correct:false},
+            {text: "Nenhum deles",correct:false},
+
         ],
-        explicacao: "Refere-se a Maryam filha de Imran,que é conhecida como Maria mãe de Jesus(A.S),ela foi mencionada no alcorão varias vezes, ao ponto de haver um surat com titulo de nome  (Alcorão-cap.19)"
+        explicacao: ""
+    },
+    
+    {
+        questao: "Quem era a babá  do profeta Muhammad(S.A.W)",
+        resposta:
+        [
+            {text: "Halima Sa'diyya",correct:true},
+            {text: "Arwa al-Sulayhi",correct:false},
+            {text: "Rabia al Adawiyya",correct:false},
+            {text: "Zaynab Nefzaouia",correct:false},
+
+        ],
+        explicacao: ""
     },
     {
-        questao: "Qual foi o Primeiro surat do Alcorão a ser revelado",
-        resposta: [
-
-            { text: "Maryam", correct: false },
-            { text: "An-nass", correct: false },
-            { text: "At tawbah", correct: false },
-            { text: "Al'Alaq", correct: true },
-
+        questao: "A mãe do Profeta (S.A.W) foi chamada?",
+        resposta:
+        [
+            {text: "Halima",correct:false},
+            {text: "Amina",correct:true},
+            {text: "Assia",correct:false},
+            {text: "Khadijat",correct:false},
 
         ],
-        explicacao: " O primeiro surat foi Al'Alaq Coágulo (Alcorão-Cap.96) os seus priemiro 5 versiculos,embora al Fatiha seja aquele surata que inaugura o livro sagrado"
+        explicacao: ""
     },
     {
-        questao: "Qual foi o Primeiro surat do Alcorão a ser revelado em Maddinah",
-        resposta: [
-            { text: "Al'Alaq", correct: false },
-            { text: "Ar-Rahman", correct: false },
-            { text: "Al-fatiha", correct: true },
-            { text: "Al-kawthar", correct: false },
-
-
-        ],
-        explicacao: "AL'Fatiha foi a primeiro surat a ser reveldo em Madinah diferente de surat Al'Alaq que foi primeiro surat do alcorão revelado em Makka"
-    },
-    {
-        questao: "Qual é o significado da palavra Fatiha, titulo de surat Al'fatiha?",
-        resposta: [
-            { text: "Paz", correct: false },
-            { text: "Abertura", correct: true },
-            { text: "Sinceridade", correct: false },
-            { text: "Harmonia", correct: false },
-        ],
-
-    },
-    {
-        questao: "Onde ocorreu a primeira revelação do alcorão?",
-        resposta: [
-            { text: "Caverna de Badr", correct: false },
-            { text: "Caverna Hira", correct: true },
-
-        ],
-        explicacao: "A primeira revelação do Alcorão ao Profeta Muhammad (que a paz esteja com ele) ocorreu na Caverna Hira,localizada nos suburbios de Makka"
-    },
-    {
-        questao: "Em quais das cidades a Caverna Hira esta localizada",
-        resposta: [
-
-            { text: "Makka", correct: true },
-            { text: "Madinah", correct: false },
-        ],
-
-    },
-    {
-        questao: "O dia que a primeira revelação foi feita para Muhammad (S.A.W)",
-        resposta: [
-            { text: "segunda-Feira", correct: false },
-            { text: "Terca-Feira", correct: false },
-            { text: "Domingo", correct: false },
-            { text: "Sexta-Feira", correct: true },
-
-        ],
-    },
-
-    {
-        questao: "O Alcorão contém factos cientificos?",
-        resposta: [
-            { text: "Verdade", correct: true },
-            { text: "Falso", correct: false },
-
-        ],
-        explicacao: "Sim,o alcorão contém tudo,incluindo factos cientificos,é um autentico milagre"
-    }, {
-        questao: "Qual é O ultimo surat do alcorão",
-        resposta: [
-            { text: "Al-fatiha", correct: false },
-            { text: "An-nass", correct: true },
-            { text: "An-nahl", correct: false },
-            { text: "Ya-sin", correct: false },
-
-        ],
-        explicacao: "An-nass alcorão-cap.114"
-    }, {
-        questao: "Qual é O maior surat do Alcorão",
-        resposta: [
-
-            { text: "An-Burooj", correct: false },
-            { text: "An-Nahl", correct: false },
-            { text: "Al-Baqara", correct: true },
-            { text: "Al-Qalam", correct: false },
-
-        ],
-        explicacao: "Surat Al-Baqara( A vaca) que é constituido por 286 versiculos.(alcorão-cap.2)"
-    },{
-        questao: "Qual é o surat mais curto do Alcorão",
-        resposta: [
-            { text: "Al-fatiha", correct: false },
-            { text: "An-nass", correct: false },
-            { text: "Al-kawthar", correct: true},
-            { text: "Al-ikhlass", correct: false },
-
-        ],
-        explicacao: "Surata Al-kawthar (alcorão-cap.108) constituido por 3 versiculos, e tem a particularidade de nao conter a letra mim"
-    },
-    {
-        questao: "Qual é o surat conhecido por coração do Alcorão?",
-        resposta: [
-            { text: "An-Naml", correct: false },
-            { text: "An-nass", correct: false },
-            { text: "Al-kawthar", correct: false},
-            { text: "Ya-sin", correct: true },
-
-        ],
-    }, {
-        questao: "Qual é o surat conhecido por Uruss (noiva) do Alcorão?",
-        resposta: [
-            { text: "An-Naml", correct: false },
-            { text: "Al-Balad", correct: false },
-            { text: "Ar-Rahman", correct: true},
-            { text: "Ya-sin", correct: false },
-
-        ],
-        explicacao: " Profeta (que a paz e as orações de Deus estejam com ele e sua família) ele disse: “Tudo tem uma noiva, e a noiva do Alcorão é a Surah Ar-Rahman, glória a Ele” (Mustadrak Al-Wasa'il: 4/351). Assim, o hadith destaca a elevada posição e importância atribuídas o Surat Ar-Rahman, chamando-a de (a noiva do Alcorão) para enfatizar sua beleza e distinção entre as suratas do Alcorão."
-    },
-     {
-        questao: "Qual é o surat  que possui o versiculo mais longo do Alcorão?",
-        resposta: [
-            { text: "Al-Baqara", correct: true },
-            { text: "Al-Furqan", correct: false },
-            { text: "Al-Rahman", correct: false},
-            { text: "Ya-sin", correct: false },
-
-        ],
-        explicacao: "É o versiculo 282 do surat Al-Baqara"
-    },
-    {
-        questao: "Qual é o surat conhecido por Ummul Kitab (mãe do livro)",
-        resposta: [
-            { text: "Al-Waquiah", correct: false},
-            { text: "Al-Fatiha", correct: true},
-            { text: "Az-Zumar", correct: false},
-            { text: "Ya-sin", correct: false },
-
-        ],
-       
-    }
-    ,{
-        questao: "Quantas vezes o nome do profeta Muhammad(S.A.W) foi mencionado no Alcorão",
-        resposta: [
-            { text: "4", correct: true},
-            { text: "6", correct: false},
-            { text: "7", correct: false},
-            { text: "9", correct: false },
-
-        ],
-    }
-    ,{
-        questao: "Quantos versiculos foram revelados na primeira revelação (wahi)",
-        resposta: [
-            { text: "7", correct: false},
-            { text: "9", correct: false },
-            { text: "5", correct: true},
-            { text: "6", correct: false},
-
-        ],
-        explicacao: "Foram os 5 primeiros versiculos do surat Al-Alaq (Alcorão-cap.96)"
-    }
-   
-    ,{
-        questao: "Quantos surates têm nomes de Animais como titulo",
-        resposta: [
-            { text: "2", correct: true},
-            { text: "3", correct: false },
-            { text: "1", correct: false},
-            { text: "5", correct: false},
-
-        ],
-        explicacao: "Surat Al-Baqara(A Vaca) alcorão-cap.02 e o surat Al-fil (O elefante) alcorão-cap.105 "
-    },
-    {
-        questao: "Qual surat é recomendado para ler na sexta-feira?",
-        resposta: [
-            { text: "Al-kahf", correct: true},
-            { text: "As-Shamss", correct: false },
-            { text: "Al-lail", correct: false},
-            { text: "At-tur", correct: false},
-
-        ],
-        explicacao: "Quem recitar Surah Al Kahf  no dia de sexta-feira terá uma luz para ele entre esta sexta e a próxima” Al Sunan al Kubra – 5856"
-    },{
-        questao: "Quantos surates têm nomes de Insectos como titulo",
-        resposta: [
-          
-            { text: "2", correct: false },
-            { text: "7", correct: false},
-            { text: "6", correct: false},
-            { text: "3", correct: true},
-        ],
-        explicacao: "Surat Al-Nahl(A Abelha) alcorão-cap.16,An-Naml(A formiga) alcorão-cap.27 e surat Al-Ankabut (A Aranha) alcorão-cap.29 "
-    },{
-        questao: "Há Algum surat com nome de um fruto",
-        resposta: [
-          
-            { text: "Verdade", correct: true },
-            { text: "Falso", correct: false},
+        questao: "Qual era o apelido do Profeta  antes de receber a revelação do Alcorão e se tornar Profeta?",
+        resposta:
+        [
            
+            {text: "O confiavel",correct:true},
+            {text: "Bom Hommem",correct:false},
+       
 
         ],
-        explicacao: "Sim, O surat At-Tiin(O Figo) alcorão-cap.95, é apenas uma palavra ou uma expressão empregada no surat e que foi escolhido como titulo "
+        explicacao: "O povo de Meca o chamava de “Sãdiq Al-Amine” (o verdadeiro, confiável)."
+    },
+    {
+        questao: "​O Profeta (S.A.W) foi enviado apenas para os árabes",
+        resposta:
+        [
+           
+            {text: "Falso",correct:true},
+            {text: "verdade",correct:false},
+       
+
+        ],
+        explicacao: "“Nós apenas te enviamos como uma misericórdia para a humanidade” alcorão-surat 21:v107"
+    },
+    
+    {
+        questao: "O Profeta  (S.A.W) foi violento?",
+        resposta:
+        [
+            {text: "verdade",correct:false},
+            {text: "Falso",correct:true},
+        ],
+        explicacao: "A Aysha relatou «O Mensageiro de Allah ﷺ, não golpeou um servo ou uma mulher, e ele nunca golpeou nada com a mão», excepto na guerra."
+    },
+
+    {
+        questao: "Quantos anos tinha o Profeta Muhammad (S.A.W) quando sua mãe falesceu?",
+        resposta:
+        [
+            {text: "4",correct:false},
+            {text: "3",correct:false},
+            {text: "6",correct:true},
+            {text: "7",correct:false},
+        ],
+        explicacao: ""
+    },
+    {
+        questao: "O Profeta Muhammad (S.A.W) morreu com que idade?",
+        resposta:
+        [
+            {text: "56 anos",correct:false},
+            {text: "48 anos",correct:false},
+            {text: "76 anos",correct:false},
+            {text: "63 anos",correct:true},
+        ],
+        explicacao: ""
     }
-    ,{
-        questao: "Qual foi o primeiro versiculo que profeta (S.A.W) foi revelado",
+    ,
+    {
+        questao: "Muhammad (S.A.W) é o último dos Profetas",
+        resposta:
+        [
+            {text: "Verdade",correct:true},
+            {text: "Falso",correct:false},
+        ],
+        explicacao: " “Em verdade, Mohammad não é o pai de nenhum de vossos homens, mas sim o Mensageiro de Deus e o ultimo dos dos profetas; sabei que Deus é Onisciente” Alcorão-surat 33:v40"
+    }
+    ,
+    {
+        questao: "O Profeta (S.A.W) tinha irmãos e irmãs?",
+     
+        resposta:
+        [
+            {text: "verdade",correct:false},
+            {text: "false",correct:true},
+           
+        ],
+        explicacao: "Ele era filho único, seu pai morreu antes de ele nascer e sua mãe quando ele tinha 6 anos."
+    }
+    
+    ,
+    {
+        questao: "Qual era o nome do primeiro filho do Profeta (S.A.W)",
+        resposta:
+        [
+            {text: "Qassim",correct:true},
+            {text: "Abdullah",correct:false},
+            {text: "Ibrahim",correct:false},
+            {text: "Fátima",correct:false},
+        ],
+        explicacao: "O primeiro filho do Profeta Muhammad (S.A.W) foi o Qassim. Ele recebeu o apelido (kunya) de Abu'l-Qasim"
+    }
+    ,
+    {
+        questao: "Com quantos anos o profeta (S.A.W) recebeu a profecia",
+        resposta:
+        [
+            {text: "30",correct:false},
+            {text: "40",correct:true},
+            {text: "50",correct:false},
+            {text: "60",correct:false},
+        ],
+        explicacao: ""
+    }
+    ,
+    {
+        questao: "Qual dos filhos do profeta (S.A.W) abaixo não foi de Khadija(R.A)",
+        resposta:
+        [
+            {text: "Qassim",correct:false},
+            {text: "Ibrahim",correct:true},
+            {text: "Fátima",correct:false},
+            {text: "Todas foram  de Khadija (R.A)",correct:false},
+        ],
+        explicacao: ""
+    }
+    ,
+    {
+        questao: "Qual era o nome da primeira esposa do Profeta (S.A.W)?",
+        resposta:
+        [
+            {text: "Aisha",correct:false},
+            {text: "Hafsá",correct:false},
+            {text: "Maryam",correct:false},
+            {text: "Khadijat",correct:true},
+        ],
+        explicacao: ""
+    }
+    ,
+    {
+        questao: "Qual anjo ensinou a Muhammad (S.A.W) o Alcorão?",
+        resposta:
+        [
+            {text: "Mikail",correct:false},
+            {text: "Djibril",correct:true},
+            {text: "Malik",correct:false},
+            {text: "Issrafil",correct:false},
+        ],
+        explicacao: "Djibrîl é o anjo da revelação. «O Mensageiro de Allah viu Jibrîl em sua verdadeira forma. Ele tinha seiscentas asas, cada uma delas enchia o horizonte, e havia pérolas multicoloridas e rubis caindo de suas asas.» Relatado por Ahmad"
+    }
+    ,
+    
+    {
+        questao: "O Profeta (S.A.W) jejuava?",
+        resposta:
+        [
+            {text: "Segundas e nas Quintas",correct:true},
+            {text: "Segundas e nas Terças",correct:false},
+            {text: "Quartas e nas Sextas",correct:false},
+            {text: "Nas Quintas apenas",correct:false},
+        ],
+        explicacao: "Na segunda e quinta-feira, Alá perdoa todos os muçulmanos, exceto duas pessoas que se evitam"
+    }
+    ,
+     {
+        questao: "O avô do Profeta (S.A.W) foi chamado?",
+        resposta:
+        [
+            {text: "Abu Tualib",correct:false},
+            {text: "Abdullah",correct:false},
+            {text: "Abdul Mutualib",correct:true},
+            {text: "Abbas",correct:false},
+        ],
+        explicacao: ""
+     },
+    {
+        questao: "A avô paterna do Profeta (S.A.W) foi chamada?",
+        resposta:
+        [
+            {text: "Haleema",correct:false},
+            {text: "Sakeena",correct:false},
+            {text: "Fátima bint Omar",correct:true},
+            {text: "Nenhuma acima",correct:false},
+        ],
+        explicacao: ""
+    },
+    {
+        questao: "Quando Djibril veio  ao encontro do profeta(S.A.W) na cave de Hira, foi numa noite de?",
+        resposta:
+        [
+            {text: "Ramadan",correct:true},
+            {text: "Rajab",correct:false},
+            {text: "Shaban",correct:false},
+            {text: "Muharram",correct:false},
+        ],
+        explicacao: ""
+    },{
+        questao: "Com que idade o Profeta Muhammad (S.A.W) casou-se com Khadijah (R.A)?",
         resposta: [
-          
-            { text: "Diga,Ele Allah é unico", correct: false },
-            { text: "Louvado seja Deus, Senhor do Universo", correct: false },
-            { text: "Que tu és dos mensageiros", correct: false },
-            { text: "Lê, em nome do Teu Senhor que criou", correct: true},
-
+            {text: "25 anos", correct: true},
+            {text: "30 anos", correct: false},
+            {text: "35 anos", correct: false},
+            {text: "40 anos", correct: false},
         ],
-        explicacao: "Al-Alaq (Alcorão-cap.96:V01)"
-    }
-
+        explicacao: "O Profeta Muhammad (S.A.W) tinha 25 anos quando se casou com Khadijah (R.A), que tinha 40 anos."
+    },{
+    questao: "Por que o Profeta Muhammad ﷺ migrou de Meca para Medina?",
+    resposta: [
+        {text: "Para fazer comércio", correct: false},
+        {text: "Para fugir da perseguição dos idólatras", correct: true},
+        {text: "Para visitar sua família", correct: false},
+        {text: "Porque foi convidado para ensinar na cidade", correct: false},
+    ],
+    explicacao: "O Profeta ﷺ migrou de Meca para Medina para escapar da perseguição e estabelecer a comunidade muçulmana."
+},{
+    questao: "Quando e onde faleceu o pai do Profeta Muhammad ﷺ?",
+    resposta: [
+        {text: "Em Meca, depois do nascimento do Profeta", correct: false},
+        {text: "Em Yathrib (Medina), antes do nascimento do Profeta ﷺ", correct: true},
+        {text: "Durante a migração para Medina", correct: false},
+        {text: "Em Taif, após uma viagem comercial", correct: false},
+    ],
+    explicacao: "O pai do Profeta Muhammad ﷺ, Abdullah, faleceu em Yathrib (Medina) antes do nascimento do Profeta."
+},
+{
+    questao: "Qual era a ocupação do Profeta Muhammad ﷺ até os 40 anos?",
+    resposta: [
+        {text: "Era professor e estudioso", correct: false},
+        {text: "Era pastor de ovelhas e também comerciante", correct: true},
+        {text: "Era guerreiro e soldado", correct: false},
+        {text: "Era fazendeiro de trigo", correct: false},
+    ],
+    explicacao: "O Profeta Muhammad ﷺ trabalhou como pastor de ovelhas quando jovem e também se destacou como comerciante antes da revelação."
+},
+{
+    questao: "Por que Khadijah (R.A) quis se casar com o Profeta Muhammad ﷺ?",
+    resposta: [
+        {text: "Por causa de sua riqueza", correct: false},
+        {text: "Por causa de sua beleza", correct: false},
+        {text: "Por causa de sua honestidade e bom caráter", correct: true},
+        {text: "Porque ele era famoso", correct: false},
+    ],
+    explicacao: "Khadijah (R.A) desejava se casar com o Profeta ﷺ devido à sua honestidade, confiabilidade e excelente caráter, qualidades que ela valorizava profundamente."
+},
+{
+    questao: "Qual foi a primeira forma de revelação recebida pelo Profeta Muhammad ﷺ?",
+    resposta: [
+        {text: "Por meio de sonhos verdadeiros durante 6 meses", correct: true},
+        {text: "Por meio de um livro escrito", correct: false},
+        {text: "Por sinais na natureza", correct: false},
+        {text: "Através de mensageiros humanos", correct: false},
+    ],
+    explicacao: "A primeira forma de revelação foi através de sonhos verdadeiros que duraram aproximadamente 6 meses antes da revelação formal do Alcorão."
+}
+    
 
 ];
-
 
 const questaoElement = document.getElementById("questao");
 const botaoDeresposta = document.getElementById("botoes-respostas");
@@ -288,7 +327,7 @@ function iniciarQuiz() {
 function verificarResposta(index) {
     const respostas = question[currentQuestaoIndice].resposta;
 
-    // Desabilitar todos os botões após o usuário clicar em uma opção
+    
     for (let i = 0; i < respostas.length; i++) {
         const button = botaoDeresposta.children[i];
         button.disabled = true;
@@ -454,7 +493,7 @@ function reiniciarQuiz() {
 
 function proximoNivel()
 {
-    window.location.href= "alcIntermediario.html";
+    window.location.href= "modalidades.html";
 }
 function voltarPaginaInicial() {
     window.location.href = "index.html";
